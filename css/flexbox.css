@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+.flex-container {
+    height: 500px;
+    background: aquamarine;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: row; /* column o reverse */
+    /* flex-wrap: nowrap; /* wrap - esto hace que los elementos dentor del container salten de linea o se mantengan dentro del la misma linea cambiando su tamaño 
+    */
+    flex-flow: row nowrap;
+    /* justify-content para row y column (flex-direction) */
+    justify-content: center; /* start/end/center/ y los space- */
+    align-items: center;
+    align-content: center;
+}
+
+.flex-items {
+    font-size: 24px;
+    color: white;
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    background: blueviolet;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    order: 0; /* valor por defecto */
+}
+
+.flex-items:nth-child(2) {
+    background: coral;
+    order: 1;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+    height: 90px;
+    padding: 10px 20px;
+}
+.header__logo img {
+    width: 200px;
+    height: auto;
+}
+.header__menu ul {
+    display: flex;
+    list-style: none;
+}
+.header__menu ul li a {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 0 10px;
+    color: white;
+}
+
+.intro {
+    background-image: url(../img/bg_las-pelotas_01.jpg);
+    background-position: center;
+    padding: 25px;
+    min-height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.intro .intro__title {
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.intro .intro__txt {
+    color: white;
+    font-size: 24px;
+    background: blue;
+}
+.intro a.intro__btn {
+    margin-top: 20px;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+#historia {
+    display: flex;
+    align-items: center;
+}
+#historia .historia__img {
+    padding: 25px;
+}
+#historia .historia__txt{
+    padding: 25px;
+}
+
+#videos {
+    margin: 50px auto 50px;
+    text-align: center;
+}
+#videos .videos__title {
+    background: red;
+}
+#videos .videos__txt {
+    margin: 25px auto 25px;
+}
+
+#footer {
+    background: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
